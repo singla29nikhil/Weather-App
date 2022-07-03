@@ -9,7 +9,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 app.get("/",function(req,res)
 {
-  c-"Agra";
   const apikey="a753cc03da6a8fb64e8bff389d506f97";
   const units="metric";
   const url="https://api.openweathermap.org/data/2.5/weather?q=" + c + "&appid="+apikey + "&units=" + units;
